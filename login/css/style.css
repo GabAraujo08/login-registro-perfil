@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'inter-regular';
+  src: url('fonts/Inter-Regular.ttf');
+}
+@font-face {
+  font-family: 'inter-bold';
+  src: url('fonts/Inter-Bold.ttf');
+}
+
+a{
+	color: #202024;
+}
+
+body {
+	background-color: #E1E1E6;
+	background-image: url("spays.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#background {
+    display: flex;
+    flex-direction: row-reverse;
+	
+}
+#logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+#login {
+    margin-left: 363px;
+    position: absolute;
+    width: 498px;
+    height: 563px;
+    border-radius: 20px;
+    background-color: #C4C4CC;
+    margin-top: 45px;
+	opacity: 0.9;
+	box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.5);
+}
+form {
+    display: flex;
+    margin-top: 1em;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+	font-family: inter-bold;
+	justify-content: center;
+    display: flex;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	color: #121214;
+	margin-top: 13px;
+
+}
+#textos{
+	font-family: inter-regular;
+	display:flex;
+	justify-content:center;
+	margin-top: 10px;
+}
+
+input[type=submit] {
+  width: 300px;
+  height: 35px;
+  border-radius: 4px;
+  background-color: #202024;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+input[type=email] {
+  width: 350px;
+  height: 25px;
+  border-radius: 4px;
+  background-color: #202024;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+}
+
+input[type=email]::placeholder {
+  color: #fff;
+  opacity: 0.6;
+}
+input[type=password] {
+    width: 350px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: #202024;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+}
+
+input[type=password]::placeholder {
+  color: #fff;
+  opacity: 0.6;
+}
+label {
+	display:flex;
+	justify-content: left;
+    cursor: default;
+}
+
