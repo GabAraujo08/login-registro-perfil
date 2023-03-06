@@ -262,7 +262,7 @@ font-family: 'InterRegular';
   justify-content: center;
   align-items: center;
  
-  height: 100vh;
+  
   padding: 35px;
   
   
@@ -443,7 +443,7 @@ font-size: 16px;
 
   .box .perfil-area-box .box-eventos{
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     justify-content: space-evenly;
   }
   .box .perfil-area-box .box-eventos .evento{
@@ -453,8 +453,9 @@ font-size: 16px;
     align-items: center;
     background-color: #82BADE;
     border-radius: 15px;
-    width: 25rem;
+    /* width: 25rem; */
     height: 11rem;
+    padding: 15px;
   }
 
   .box .perfil-area-box .box-eventos .evento .img-evento img{
