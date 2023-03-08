@@ -38,6 +38,10 @@ function showTab(n) {
     }
     if (n == (x.length - 1)) {
         document.getElementById("nextBtn").innerHTML = "Enviar";
+        var nextBtn = document.getElementById("nextBtn");
+        nextBtn.type = "submit";
+        
+        
     } else {
         document.getElementById("nextBtn").innerHTML = "Próximo";
     }

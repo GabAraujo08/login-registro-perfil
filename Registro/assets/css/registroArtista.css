@@ -19,10 +19,10 @@ html{
     overflow-x: hidden;
 }
 body{
-    background-image: url('../img/background.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: 55px;
+  background-color: white;
+    
+   
+    
     font-family: 'Poppins';
 }
 
@@ -30,11 +30,12 @@ body{
   DO BOOTSTRAP DE QUANTAS COLUNAS O FORMULARIO DEVE OCUPAR*/
 
 .container .row .bootstrap-class .registro-login{ 
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 4rem;
-    font-family: 'Poppins';
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+  font-family: 'Poppins';
+  width: 100%;
+  justify-content: space-around;
 
 }
 .container .row .bootstrap-class .registro-login h1{

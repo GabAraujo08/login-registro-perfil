@@ -13,11 +13,11 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="d-flex container">
         <div class="row">
             <!-- BOOTSTRAP CLASS = A DIV QUE POSSUI ESSA CLASSE TEM UMA PRÉ DEFINICAO
                 DO BOOTSTRAP DE QUANTAS COLUNAS O  DEVE OCUPAR -->
-            <div class="col-sm-9 col-md-7 col-lg-5 bootstrap-class">
+            <div class="bootstrap-class">
                 <div class="registro-login">
                     <a href="../Registro/registroVisitante.html">
                         <h1 class="cadastro">Cadastre-se</h1>
@@ -156,26 +156,31 @@
                             <div class="tab">
                                 <div>
                                     <div class="form-floating mb-3 " style="display: flex;
-                            flex-direction: column;">
+                                        flex-direction: column;">
                                         <span class="span-input">Sua senha</span>
                                         <input type="password" class="input-senha" name="senhaVisitante" id="password"
                                             placeholder="Digite sua senha...">
                                     </div>
 
                                     <div class="form-floating mb-3 " style="display: flex;
-                            flex-direction: column;">
+                                        flex-direction: column;">
                                         <span class="span-input">Confirme a senha</span>
                                         <input type="password" class="input-confirmarSenha"
                                             name="confirmarSenhaVisitante" id="confirmPassword"
                                             placeholder="Digite sua senha...">
                                     </div>
                                 </div>
+                                
+                                
                             </div>
 
                             <div style="overflow:auto;">
                                 <div style="float:right;">
                                     <button type="button" id="prevBtn" onclick="nextPrev(-1)">Anterior</button>
                                     <button type="button" id="nextBtn" onclick="nextPrev(1)">Próximo</button>
+                                    
+                                    
+                                    
                                 </div>
                             </div>
 
@@ -191,6 +196,10 @@
                     </div>
                 </div>
             </div>
+
+        </div>
+        <div class="getto-img">
+            <img src="assets/img/background.svg" alt="">
         </div>
     </div>
 
